@@ -1,0 +1,2 @@
+https://physionet.org/content/afdb/1.0.0/
+https://physionet.org/content/mitdb/1.0.0/
