@@ -1,9 +1,19 @@
+tahap penggunaan algoritma:
+
+- pertama, running Classification_CNN_Default.ipynb untuk mendapatkan hasil performansi CNN dengan parameter default.
+
+- selanjutnya, urutan untuk tuning hyperparameter algoritma CNN yaitu running Classification_epoch_CNN.ipynb, lalu Classification_learning rate_CNN.ipynb, Classification_batch size_CNN.ipynb, dan terakhir, Classification_optimizer_CNN.ipynb.
+
+- hasil terbaik dapat dilihat pada performansi Classification_optimizer_CNN.ipynb yang tertinggi.
+
+
 Algoritma CNN Klasifikasi terbaik dengan parameter
 
 epochs=100
 batch_size=128
 learning rate 0,0001
 optimizer RMS dengan hasil akurasi 98.70664477348328%
+
 Best results obtained in fold 3: Adam
 
 Accuracy: 98.11875224113464%
