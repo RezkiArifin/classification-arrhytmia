@@ -1,4 +1,12 @@
-Algoritma DNN Klasifikasi terbaik dengan parameter
+tahap penggunaan algoritma:
+
+- pertama, running Classification_LSTM_Default.ipynb untuk mendapatkan hasil performansi LSTM dengan parameter default.
+
+- selanjutnya, urutan untuk tuning hyperparameter algoritma LSTM yaitu running Classification_epoch_LSTM.ipynb, lalu Classification_learning rate_LSTM.ipynb, Classification_batch size_LSTM.ipynb, dan terakhir, Classification_optimizer_LSTM.ipynb.
+
+hasil terbaik dapat dilihat pada performansi Classification_optimizer_LSTM.ipynb yang tertinggi.
+
+Algoritma LSTM Klasifikasi terbaik dengan parameter
 
 epochs=100
 batch_size=64
