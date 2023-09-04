@@ -1,9 +1,18 @@
+tahap penggunaan algoritma:
+
+- pertama, running Classification_DNN_Default.ipynb untuk mendapatkan hasil performansi DNN dengan parameter default.
+
+- selanjutnya, urutan untuk tuning hyperparameter algoritma DNN yaitu running Classification_epoch_DNN.ipynb, lalu Classification_learning rate_DNN.ipynb, Classification_batch size_DNN.ipynb, dan terakhir, Classification_optimizer_DNN.ipynb.
+
+- hasil terbaik dapat dilihat pada performansi Classification_optimizer_DNN.ipynb yang tertinggi.
+
 Algoritma DNN Klasifikasi terbaik dengan parameter
 
 epochs=100
 batch_size=64
 learning rate 0,001
 optimizer adam dengan hasil akurasi 98.5302746295929%
+
 Best results obtained in fold 4: adam
 
 Accuracy: 98.5302746295929%
